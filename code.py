@@ -15,7 +15,10 @@ def mail(sender,reciever):
     
       mail.Send()
     
-
+# self explanatory, except the numbers at the end, any entries that have
+# the same value will be exclude from getting each other in the draw.
+# This is useful if two of the secret santa participents live together
+# for instance.
 p = [['Name_1', 'Email_1', '1'],
       ['Name_2', 'Email_2', '1'],
       ['Name_3', 'Email_3', '2'],
